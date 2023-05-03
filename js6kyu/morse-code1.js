@@ -8,6 +8,6 @@ decodeMorse = function(morseCode){
         });
         answer.push(' ')
     });
-    return answer.toString()
+    return answer.join('').trim()
   }
 console.log(decodeMorse('···· · −·−−   ·−−− ··− −·· ·'))
