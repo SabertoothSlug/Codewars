@@ -7,3 +7,7 @@ function shortcut (string) {
     })
     return arr2.join('');
   }
+
+  function shortcut(string){
+    return string.replace(/[aeiou]/g,'')
+  }
