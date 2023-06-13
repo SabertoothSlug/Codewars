@@ -8,3 +8,8 @@ var numberFormat = function (number) {
     }
     return arr.join('')
   };
+
+  numberFormat = n => n.toLocaleString()
+
+  const numberFormat = number =>
+  String(number).replace(/\B(?=(\d{3})+\b)/g, `,`);
