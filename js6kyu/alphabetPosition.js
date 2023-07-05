@@ -5,10 +5,6 @@ function alphabetPosition(text) {
     filt.forEach(element => {
         result+=((element.charCodeAt(0)-96))+' '
     });
-    console.log(result)
-    
-        result=result.trim()
-    
-    return result
+    return result.trim()
   }
   alphabetPosition('6/0#9&%9')
