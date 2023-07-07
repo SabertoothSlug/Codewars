@@ -7,7 +7,5 @@ while(regex.test(string)){
     string=string.slice(0,i+1)+' '+string.slice(i+1,string.length+1)
 }
 return string
-
-
 }
 console.log(solution('camelCasingTest'))
