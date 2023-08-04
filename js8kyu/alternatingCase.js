@@ -16,3 +16,4 @@ String.prototype.toAlternatingCase = function () {
   String.prototype.toAlternatingCase = function () {
     return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('')
 }
+// baldurs gate 3 came out
